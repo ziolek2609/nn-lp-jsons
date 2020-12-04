@@ -8,7 +8,7 @@ Kod zawiera dwie funkcje w pliku jsnons.py:
  
  Na wyjściu otrzymujemy json z podsumowaniem parametrów sieci neuronowej lub programu logicznego.
  
- Wyjście z lp_params zawiera:
+ Wyjście z lp_params zawiera wartości paramtrów:
  >             {"clauses": {
  >                          "amount": 0, 
  >                         "onlyPos": 0,
@@ -37,7 +37,7 @@ Kod zawiera dwie funkcje w pliku jsnons.py:
  >              }
               
               
-Wyjście z nn_params zawiera:
+Wyjście z nn_params zawiera wartości parametrów:
  >              {"atoms":{
  >                      "sum": 0,
  >                      "inp": 0,
@@ -56,11 +56,11 @@ Wyjście z nn_params zawiera:
  >                        "rec": 0
  >                        },
  >                 "factors":{
- >                        "beta": 1,
- >                        "ahln": 1,
- >                        "r": 0.05,
+ >                        "beta": 0,
+ >                        "ahln": 0,
+ >                        "r": 0,
  >                        "bias": 0,
- >                        "w": 0.1,
- >                        "amin": 0.1
+ >                        "w": 0,
+ >                        "amin": 0
  >                        }
  >                  }
