@@ -2,7 +2,7 @@ import json
 
 # podsumowuje parametry sieci neronowej
 def nn_params(source):
-    if source == str:
+    if type(source) == str:
         with open(source, "r") as data:
             neural_network = json.load(data)
     else:
@@ -33,7 +33,7 @@ def nn_params(source):
 
 # podsumowuje parametry programu logicznego
 def lp_params(source):
-    if source == str:
+    if type(source) == str:
         with open(source, "r") as data:
             logic_program = json.load(data)
     else:
