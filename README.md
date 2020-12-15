@@ -38,9 +38,9 @@ Kod zawiera dwie funkcje w pliku jsnons.py:
  >                   "numOfClausesWhoseHeadAppearsInTheBody":0,
  >                   "numOfClausesWhoseHeadAppearsInABody":0
  >                   },
- >               "facts": 0,
- >               "assumptions": 0}
-              
+ >    "facts": 0,
+ >    "assumptions": 0}
+
               
 Wyjście z nn_params zawiera wartości parametrów:
  >              {"atoms":{
