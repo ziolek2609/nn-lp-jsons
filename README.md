@@ -9,37 +9,38 @@ Kod zawiera dwie funkcje w pliku jsnons.py:
  Na wyjściu otrzymujemy json z podsumowaniem parametrów sieci neuronowej lub programu logicznego.
  
  Wyjście z lp_params zawiera wartości paramtrów: 
- >  {"clauses": {
- >                   "amount": 0,
- >                   "onlyPos": 0,
- >                   "onlyNeg": 0,
- >                   "mix": 0,
- >                   "headWithH": 0,
- >                   "atoms": {
- >                         "sum": 0, 
- >                         "pos": 0,
- >                         "neg": 0,
- >                         "withH": 0, 
- >                         "posWithH": 0, 
- >                         "negWithH": 0
- >                          },
- >                   "difAtoms": {
- >                          "sum": 0, 
- >                          "pos": 0, 
- >                          "neg": 0, 
- >                          "withH": 0, 
- >                          "posWithH": 0, 
- >                          "negWithH": 0
- >                          },
- >                   "atomsInHeadsNotBodies":[],
- >                   "atomsInBodiesNotInHeads":[],
- >                   "numOfPosAtomsInEachClause": [],
- >                   "numOfNegAtomsInEachClause": [],
- >                   "numOfClausesWhoseHeadAppearsInTheBody":0,
- >                   "numOfClausesWhoseHeadAppearsInABody":0
- >                   },
- >    "facts": 0,
- >    "assumptions": 0}
+>           {"clauses": {
+>                   "amount": 0,
+>                   "onlyPos": 0,
+>                   "onlyNeg": 0,
+>                   "mix": 0,
+>                   "headWithH": 0,
+>                   "atoms": {
+>                         "sum": 0, 
+>                         "pos": 0,
+>                         "neg": 0,
+>                         "withH": 0, 
+>                         "posWithH": 0, 
+>                         "negWithH": 0
+>                          },
+>                   "difAtoms": {
+>                          "sum": 0, 
+>                          "pos": 0, 
+>                          "neg": 0, 
+>                          "withH": 0, 
+>                          "posWithH": 0, 
+>                          "negWithH": 0
+>                          },
+>                   "atomsInHeadsNotBodies":[],
+>                   "atomsInBodiesNotInHeads":[],
+>                   "numOfPosAtomsInEachClause": [],
+>                   "numOfNegAtomsInEachClause": [],
+>                   "numOfClausesWhoseHeadAppearsInTheBody":0,
+>                   "numOfClausesWhoseHeadAppearsInABody":0
+>                   },
+>            "facts": 0,
+>            "assumptions": 0
+>              }
 
               
 Wyjście z nn_params zawiera wartości parametrów:
