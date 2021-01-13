@@ -18,7 +18,7 @@ def nn_params(source):
                     {"inp2Hid": 0,
                     "hid2Out": 0,
                     "rec": 0},
-                "meaningfulConnections":
+                "bigWeights":
                     {"inp2Hid": 0,
                     "hid2Out": 0,
                     "rec": 0},
